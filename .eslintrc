@@ -1,0 +1,12 @@
+{
+  // "extends": "rallycoding",
+  "parser": "babel-eslint",
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": [
+      "error", {
+        "endOfLine":"auto"
+      }
+    ]
+  }
+}
